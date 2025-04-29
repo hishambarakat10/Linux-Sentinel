@@ -1,4 +1,4 @@
-# LinuxSentinel
+# Linux Sentinel
 A lightweight RAG + Prompt Injection-Protected Chatbot for Linux Commands
 
 Linux Sentinel is an intelligent chatbot designed to help users understand Linux commands easily and safely.
