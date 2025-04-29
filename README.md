@@ -1,5 +1,5 @@
 # Linux Sentinel
-A lightweight RAG + Prompt Injection-Protected Chatbot for Linux Commands
+A lightweight RAG + Prompt Injection-Protected Chatbot + Web Scrapper for Linux Commands
 
 Linux Sentinel is an intelligent chatbot designed to help users understand Linux commands easily and safely.
 It reads commands and explanations from a trusted PDF, and uses Retrieval-Augmented Generation (RAG) combined with prompt injection defense to ensure accurate and secure answers.
