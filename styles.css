@@ -1,0 +1,94 @@
+body {
+    background-color: #181818;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff00; /* Neon Green */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.chat-box {
+    width: 90%;
+    max-width: 800px;
+    height: 500px; /* Increased height for the chat box */
+    overflow-y: auto;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Neon glow effect */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#user-input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #181818;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+#user-input:focus {
+    border-color: #00ff00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+button {
+    width: 15%;
+    padding: 10px;
+    border: none;
+    background-color: #00ff00;
+    color: #181818;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #008000; /* Darker green when hovering */
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-message {
+    background-color: #00ff00;
+    color: #181818;
+}
+
+.bot-message {
+    background-color: #333;
+    color: #00ff00;
+}
