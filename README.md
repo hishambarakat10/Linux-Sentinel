@@ -36,7 +36,7 @@ git clone https://github.com/hishambarakat10/Linux-Sentinel.git
 
 Second, we need a collection of Linux commands to work with. To gather these, we'll run Webscraper.py in VS Code from the cloned GitHub repository, which will search the web for Linux commands and save them into a PDF file named linux_commands.pdf.
 
-(NOTICE: Make sure file path for files are correct in both webscraper.py and FlaskInstance.py)
+**(NOTICE: Make sure file path for files are correct in both webscraper.py and FlaskInstance.py)**
 
 Next, you’ll need to load the Linux commands you previously web scraped using the earlier web scraping program.
 
@@ -46,4 +46,4 @@ Running ImportFile.py will create a .txt file in the same directory. This text f
 
 After completing this step, you can run FlaskInstance.py, which will launch the web application. Visit http://127.0.0.1:5000 in your browser to access it.
 
-Make sure to have Ollama and llama3 installed on your device to ensure the chatbot works properly refer to the Ollama website to install these on your device.
+**Make sure to have Ollama and llama3 installed on your device to ensure the chatbot works properly refer to the Ollama website to install these on your device.**
